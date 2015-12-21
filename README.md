@@ -8,4 +8,4 @@ lingkungan
 - bootstrap
 
 **Thanks**
-by dinal
+by ferdinal and mentored by psudocode
