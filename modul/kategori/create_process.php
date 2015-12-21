@@ -5,12 +5,12 @@
 	$desc = $_POST['content'];
 
 	if ($nama==null OR $desc==null) {
-		header("location:http://localhost/proyekcms/index.php?modul=kategori&action=create_form");
+		header("location:".BASE_URL."index.php?modul=kategori&action=create_form");
 	}
 
 	$input = "INSERT INTO kategori(nama_kategori, content) VALUES('$nama', '$desc')";
 
 	mysqli_query($konek, $input);
 
-	header("location:http://localhost/proyekcms/index.php?modul=kategori");
+	header("location:".BASE_URL."index.php?modul=kategori");
  ?>

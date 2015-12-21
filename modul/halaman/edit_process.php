@@ -8,6 +8,6 @@
 	$update = "UPDATE halaman SET page = '$page', content = '$content' WHERE id = '$id'";
 	mysqli_query($konek, $update);
 
-	header("location:http://localhost/proyekcms/index.php?modul=halaman");
+	header("location:".BASE_URL."index.php?modul=halaman");
 
  ?>

@@ -8,5 +8,5 @@
 	$update = "UPDATE kategori SET nama_kategori = '$nama', content = '$content' WHERE id = '$id'";
 	$query = mysqli_query($konek, $update);
 
-	header("location:http://localhost/proyekcms/index.php?modul=kategori");
+	header("location:".BASE_URL."index.php?modul=kategori");
  ?>

@@ -5,5 +5,5 @@
 	$hapus = "DELETE FROM halaman WHERE id = '$_GET[id]'";
 	mysqli_query($konek, $hapus);
 
-	header("location:http://localhost/proyekcms/index.php?modul=halaman");
+	header("location:".BASE_URL."index.php?modul=halaman");
  ?>
