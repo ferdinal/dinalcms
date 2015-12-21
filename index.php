@@ -1,4 +1,6 @@
 <?php 
+
+	// ini adalah fungsi pengecekan URL dengan GET
 	if (isset($_GET['modul']) AND isset($_GET['action'])) {
 		include "modul/".$_GET['modul']."/".$_GET['action'].".php";
 	}elseif(isset($_GET['modul'])){
